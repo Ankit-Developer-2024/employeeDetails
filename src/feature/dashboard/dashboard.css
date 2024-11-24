@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.dashboard{
+   height: 100vh;
+   background-color: whitesmoke;
+   margin: 0.5rem 1rem;
+}
+
+.dashboardInfo{
+    font-size: 1.5rem;
+}
+
+.dashboard-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.dashboard-Total{
+    width: 10rem;
+    margin-top: 5px;
+}
+
+.dashboard-rightChild{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.createEmployee{
+    background-color: green;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+}
+
+.employee-details{
+   
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    column-gap: 0px;
+    row-gap: 0px;
+
+    
+}
+
+.employee{
+  
+    color: rgb(49, 156, 25);
+    border:1px solid black ;
+  
+    font-weight: 500;
+    text-align: center;
+    padding: 0.2rem;
+    display: flex;
+    border-collapse: collapse;
+
+
+}
+
+
+  
+
+.searchEmployee{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.searchInfo{
+    margin: 0.2rem 0rem;
+    
+}
+
+.searchData-label{
+    font-size: 1rem;
+}
+
+#searchData{
+
+    font-size: 1.2rem;
+}
+
+.dashboard-CreateEmployee{
+    color:white;
+    background-color:green;
+    padding: 10px;
+    width : 100%;
+    border:0px;
+    margin-top: 10px;
+    font-weight:700px;
+    border-radius:0.5rem;
+    display: inline
+}

@@ -1,0 +1,48 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavBar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: rgb(44, 88, 124);
+ 
+    
+
+}
+
+.NavBarLink{
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo{
+    padding: 0.2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.NavBarLink{
+    text-decoration: none;
+
+}
+
+ .NavBarleft{
+    gap: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+ .active{
+   background-color: rgb(14, 22, 142);
+   border-radius: 0.2rem;
+   padding: 0.5rem;
+}
